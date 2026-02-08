@@ -14,7 +14,7 @@ body {
 @font-face 
 {
     font-family: klam ;
-    src: url(../example/Whisper-Regular.ttf);
+    src: url(./Whisper-Regular.ttf);
 }
 h2 {
     font-size: clamp(1.5rem, 5vw, 4rem);
