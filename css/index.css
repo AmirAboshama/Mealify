@@ -885,7 +885,14 @@ border-bottom: 5px solid gray;}
 @media (max-width: 768px) {
 
   
-
+.home .contanier .home-items .ancour-button {
+    padding-block: var(--padding-block);
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: baseline;
+    justify-content: center;
+    gap: 35px;
+}
     
     /* Home section */
     .home .contanier .home-items h2 {
@@ -943,7 +950,14 @@ border-bottom: 5px solid gray;}
 
 /* Extra Small Mobile (480px) */
 @media (max-width: 480px) {
-
+.home .contanier .home-items .ancour-button {
+    padding-block: var(--padding-block);
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: baseline;
+    justify-content: center;
+    gap: 35px;
+}
      /* Home section */
     .home .contanier .home-items h2 {
         font-size: 2rem;
